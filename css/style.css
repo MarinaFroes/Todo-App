@@ -44,22 +44,22 @@ form {
   margin: 2rem 0;
 }
 
-input {
+input[type=text]{
   border: none;
   height: 1.5rem;
   font-size: 1.0rem;
-  width: 70%;
+  flex: 4 0 100px;
 }
 
 #add-todo {
   background-color: mediumvioletred;
   border: none;
-  border-radius: 1rem;
+  border-radius: 0;
   height: 1.5rem;
   font-size: 1.0rem;
   width: 25%;
   color: white;
-
+  flex: 1 0 50px;
 }
 
 .todo {
