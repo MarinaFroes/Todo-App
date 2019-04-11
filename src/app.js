@@ -12,6 +12,7 @@ form.addEventListener('submit', function (e) {
 todoList.addEventListener('click', function (e) {
   if (e.target.nodeName === 'BUTTON') {
     e.target.parentElement.remove();
+  } else if (e.target.nodeName === 'SPAN' || e.target.nodeName === 'LI') {
+    e.target.classList.toggle('done');
   }
 })
-

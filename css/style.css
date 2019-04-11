@@ -82,6 +82,11 @@ input[type=text]{
   padding: 10px;
 }
 
+.done {
+  color: grey; 
+  text-decoration: line-through;
+}
+
 footer {
   text-align: center;
   margin: 2rem;
