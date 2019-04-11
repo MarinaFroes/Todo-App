@@ -8,7 +8,6 @@ form.addEventListener('submit', function (e) {
   
   if (todoContent) {
     todoList.insertAdjacentHTML('beforeend', `<li class="todo"><span class="todo-text">${todoContent}</span><button class="far fa-trash-alt delete"></button></li>`);
-    document.querySelector('input[type="text"]').innerContent = '';
   }
   
 })
