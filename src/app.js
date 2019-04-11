@@ -20,4 +20,7 @@ todoList.addEventListener('click', function (e) {
   }
 })
 
+// TODO: Add a local storage for tasks
+// TODO: Clear input when the task is added
+// TODO: Create login 
 
