@@ -1,5 +1,5 @@
 
-![Favicon](/img/favicon.png) 
+![Favicon](/img/favicon.ico) 
 # Todo App
 
 ## Introduction
