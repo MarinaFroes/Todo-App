@@ -71,6 +71,10 @@ form {
   background-color: snow;
   margin: 0.3rem 0;
   list-style: none;
+  animation: animationFrames ease 1s;
+  animation-iteration-count: 1;
+  transform-origin: 50% 50%;
+  animation-fill-mode:forwards; /*when the spec is finished*/
 }
 
 .todo-text {
@@ -87,6 +91,17 @@ form {
 .done {
   color: grey; 
   text-decoration: line-through;
+}
+
+@keyframes animationFrames{
+  0% {
+    opacity:0;
+    transform:  translate(0px,-25px)  ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,0px)  ;
+  }
 }
 
 footer {

@@ -43,3 +43,4 @@ This game works in different sizes of screens as well.
 - [MDN Documentation](https://developer.mozilla.org)
 - [Tutorial FEND Udacity by Mentor Burak Tilek](https://www.youtube.com/watch?v=bFbXyPlXmhM)
 - [Code Explaining Tutorial](https://www.youtube.com/watch?v=b8sUhU_eq3g)
+- [CSS Animates](http://cssanimate.com/)
