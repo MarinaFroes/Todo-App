@@ -6,10 +6,11 @@ form.addEventListener('submit', function (e) {
 
   let todoContent = document.querySelector('input[type="text"]').value;
 
-  todoList.insertAdjacentHTML('beforeend', `<li class="todo"><span class="todo-text">${todoContent}</span><button class="delete">X</button></li>`);
+  todoList.insertAdjacentHTML('beforeend', `<li class="todo"><span class="todo-text">${todoContent}</span><button class="far fa-trash-alt delete"></button></li>`);
 })
 
 todoList.addEventListener('click', function (e) {
+  console.log(e.target.nodeName);
   if (e.target.nodeName === 'BUTTON') {
     e.target.parentElement.remove();
   } else if (e.target.nodeName === 'SPAN' || e.target.nodeName === 'LI') {
