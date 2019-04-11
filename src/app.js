@@ -9,5 +9,9 @@ form.addEventListener('submit', function (e) {
   todoList.insertAdjacentHTML('beforeend', `<li class="todo"><span class="todo-text">${todoContent}</span><button class="delete">X</button></li>`);
 })
 
-
+todoList.addEventListener('click', function (e) {
+  if (e.target.nodeName === 'BUTTON') {
+    e.target.parentElement.remove();
+  }
+})
 
